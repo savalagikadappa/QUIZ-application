@@ -11,7 +11,7 @@ function App() {
       <>
         <Navbar />
         <div className="content" >
-        
+          <h1>Master New Skills,<br /> One Quiz at a Time!</h1>
         </div>
       </>
     </BrowserRouter>
