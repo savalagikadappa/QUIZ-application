@@ -1,0 +1,50 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #333;
+    /* position: fixed; */
+    position:static;
+}
+
+.logo {
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: bold;
+    color: #f1356d;
+    white-space: nowrap;
+}
+
+.nav-links {
+    display: flex;
+    gap: clamp(10px, 3vw, 30px);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f1356d;
+}
+
+/* 📱 Tablet & Mobile Styles */
+@media (max-width: 300px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        font-size: 1rem;
+    }
+}
