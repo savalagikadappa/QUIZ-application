@@ -1,14 +1,10 @@
-/* Results Container */
 .results-container {
-    margin-top: 2%;
-    background: rgb(130, 225, 89);
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    width: 100%;
-    text-align: center;
+    /* ... other styles ... */
+    top: 60%;
+    /* Or adjust as needed */
+    /* ... other styles ... */
 }
+
 
 /* Heading Styles */
 .results-container h1 {

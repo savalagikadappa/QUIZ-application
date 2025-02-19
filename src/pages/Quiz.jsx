@@ -191,7 +191,8 @@ const Quiz = () => {
 
     const handleScorePopupClose = () => {
         setShowScorePopup(false);
-        window.location.reload(); // Refresh the page
+        window.location.replace(window.location.href);
+        // Refresh the page
     };
 
     if (!quizStarted) {

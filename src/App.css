@@ -19,13 +19,24 @@
   }
 }
 
-
-
 .content h1 {
-  font-size: clamp(1rem, 8vw, 3rem);
-  /* Adjusts based on screen size */
-  display:inline-block;
-  position: relative;
-  left: 60%;
-  top: 30%;
+  font-size: clamp(1rem, 8vw, 3rem); /* Responsive font size */
+  display: inline-block; /* Keep the h1 as an inline-block */
+  position: absolute; /* Use absolute positioning for centering */
+  left: 50%; /* Move the h1 to the middle horizontally */
+  top: 50%; /* Move the h1 to the middle vertically */
+  transform: translate(-50%, -50%); /* Adjust for the h1's own size */
+  text-align: center; /* Ensure text is centered */
+  opacity: 0; /* Start with 0 opacity (fully transparent) */
+  animation: fadeIn 2s ease-in-out forwards; /* Apply the fade-in animation */
+}
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start fully transparent */
+  }
+  to {
+    opacity: 1; /* End fully visible */
+  }
 }

@@ -4,6 +4,7 @@ import Quiz from "./pages/Quiz";
 import Results from './pages/Results';
 import './App.css';
 
+
 function Home() {
   return (
     <div className="content">
