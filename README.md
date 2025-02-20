@@ -28,11 +28,22 @@ Check out the deployed application on Vercel:
 [Interactive Quiz Platform](https://kadappaquiz.vercel.app) ✨
 
 ## Screenshots 📸
-You can attach your images here by placing them in an `images/` directory. For example:
-- **Quiz View:**
-  ![Quiz Screenshot](images/quiz_screenshot.png)
-- **Scoreboard:**
-  ![Scoreboard Screenshot](images/scoreboard.png)
+Here are some snapshots of the **Interactive Quiz Platform** in action:
+
+- **Sample question displayed during the quiz**
+  ![Sample Question](sample%20question.png)
+
+- **Real-time feedback (correct & incorrect answers)**
+  ![Real-time Feedback](real%20time%20feeback%20green%20is%20correct%20red%20is%20wrong%20which%20we%20marked.png)
+
+- **Realtime feedback when a wrong answer is selected**
+  ![Wrong Answer Feedback](realtime%20feedback%20for%20wrong%20answer.png)
+
+- **Scoreboard shown at the end of the quiz**
+  ![Scoreboard](score%20shown%20at%20the%20end.png)
+
+- **Viewing past attempt results stored using IndexedDB**
+  ![Past Attempt Results](showing%20past%20attempt%20results%20using%20indexedDB.png)
 
 ## Getting Started 🛠️
 
@@ -54,7 +65,6 @@ Before running the app, ensure you have:
 First, install Vite globally (if not already installed):  
 ```bash
 npm install -g vite
-```bash
 npm install
 ```
 or if you use yarn:  
@@ -149,7 +159,3 @@ Contributions are welcome! Follow these steps:
 5. **Open a Pull Request**  
 
 ---
-
-## 📝 Feedback & Support  
-If you find bugs or have suggestions, please open an **issue on GitHub**. Your feedback is much appreciated! 😊  
-
